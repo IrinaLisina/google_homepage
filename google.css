@@ -4,6 +4,7 @@
 }
 
 
+
 .nav a {
     list-style-type: none;
     text-decoration: none;
@@ -82,3 +83,62 @@ div.google_logo {
 #hovernow:hover {
     box-shadow: 0 2px 7px rgba(187, 187, 187, 0.8);
   }
+
+div.buttons {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+button {
+    cursor: pointer;
+    user-select: none;
+    line-height: 27px;
+    padding: 0 16px;
+    font-size: 14px;
+    height: 36px;
+    text-align: center;
+    user-select: none;
+    outline: none;
+    border: none;
+    
+}
+
+.footer {
+    background-color: rgb(236, 235, 235);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 170px;
+    width: 100%;
+    overflow: 0;
+}
+
+div.UK {
+    border: 1px solid rgb(216, 216, 216);
+    color: rgb(117, 117, 117);
+    padding-left: 30px;
+    font-family: arial,sans-serif;
+    text-align: left;
+    display: block;
+    font-size: 16px;
+    line-height: 40px;
+    cursor:text;
+}
+
+div.BF {
+    color: rgb(95, 95, 95);
+    padding-left: 30px;
+    font-family: arial,sans-serif;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    line-height: 40px;
+    cursor: pointer; 
+}
+
+.BF:hover {
+    text-decoration: underline;
+}
