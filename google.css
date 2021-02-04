@@ -52,14 +52,14 @@ div.google_logo {
 }
 
 #search {
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(172, 172, 172);
     padding-right: 10px;
 }
 
 .box input {
     height: 30px;
-    width: 390px;
+    width: 370px;
     border: none;
     font-size: 16px;
     outline: none;
@@ -73,51 +73,12 @@ div.google_logo {
 }
 
 
-
-
-
-
-
-/* .box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px
-}
-
-input {
-    position: relative;
-    display: inline-block;
-    font-size: 16px;
-    box-sizing: border-box;
-    transition: .5s;
-}
-
-input[type="text"]
-{
-    background: #fff;
-    width: 475px;
-    height: 45px;
-    border: 1px solid rgb(223, 222, 222);
-    outline: grey;
-    padding: 0 50px;
-    border-radius: 25px 25px;
-    animation-name: blink;
-    animation-duration: 800ms;
-    animation-iteration-count: infinite;
-
-} */
-
-  
-/* .hovernow {
-    width: 475px;
-    height: 45px;
-    padding: 0 0px;
-    border-radius: 25px 25px;
+#hovernow {
+    background-color: white;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-    transition: box-shadow ;
-}
-
-  .hovernow:hover {
-    box-shadow: 0 1px 6px #c0c0c0;
-  } */
+    transition: box-shadow;
+  }
+  
+#hovernow:hover {
+    box-shadow: 0 2px 7px rgba(187, 187, 187, 0.8);
+  }
